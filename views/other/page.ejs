@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>MIX mongodb</title>
+
+	<script type='text/javascript' src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+	<script type='text/javascript' src='./javascripts/form.js'></script>
+	<link rel="stylesheets" type="text/css" href="style.css">
+	</head>
+
+	<body>
+
+	<h1> MIX </h1>
+
+
+	<p> Enter a new song title: </p>
+	Song Name <input id = "songname" type="text" name="Songname"/><br>
+	Song Descprinption <input id = "songdesc" type="text" name="Songdesc"/><br>
+	Date   <input id = "songdate" type="text" name="Songdate"/><br>
+
+	<br></br>
+	<button id = 'create'>Create</button>
+	<div id="createResult"></div>
+	<br></br>
+
+
+	<p> Retrieve information about Song by typing the song title: </p>	
+		Song Name <input id = "songname3" type="text" name="Songname"/><br>
+
+	<br></br>
+	<button id = 'retrieve'>Retrieve</button>
+	<p>The Song you were looking for: <span id="retrieveResult"></span></p>
+	<br></br>
+
+
+	<p> Update information about Song by typing in any detail you want to update: </p>	
+	Song Name <input id = "songname2" type="text" name="Songname"/><br>
+	Song Descprinption <input id = "songdesc2" type="text" name="Songdesc"/><br>
+	Date   <input id = "songdate2" type="text" name="Songdate"/><br>
+
+	<br></br>
+	<button id = 'update'>Update</button>
+	<div id="updateResult"></div>
+	<br></br>
+
+
+	<p> Delete information about Song by typing the Song title: </p>	
+	Song Name <input id = "songname4" type="text" name="Songname"/><br>
+
+	<br></br>
+	<button id ='delete'>Delete</button>
+	<div id="deleteResult"></div>
+	<br></br>
+
+		
+	</body>
+</html>
